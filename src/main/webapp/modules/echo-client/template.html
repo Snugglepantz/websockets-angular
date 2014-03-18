@@ -1,0 +1,15 @@
+<div class="well">
+  <form>
+    <table class="table table-striped">
+      <tbody>
+        <tr data-ng-repeat="interaction in interactions">
+          <td>{{interaction.chat.user}}</td>
+          <td>{{interaction.chat.message}}</td>
+        </tr>
+      </tbody>
+    </table>
+    Message: <input data-ng-model="message" />
+    <button data-ng-click="sendMessage()" class="btn">Send
+      message</button>
+  </form>
+</div>

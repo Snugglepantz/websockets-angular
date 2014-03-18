@@ -1,0 +1,8 @@
+.scrollable {
+    overflow-y: scroll;
+}
+
+.bodycontainer {
+    height: 100px !important;
+    width: 100%;
+}
